@@ -1,0 +1,1229 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1700
+            ],
+            [
+              -198,
+              1745
+            ],
+            [
+              -53,
+              1745
+            ],
+            [
+              -53,
+              1700
+            ],
+            [
+              -198,
+              1700
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1652
+            ],
+            [
+              -198,
+              1697
+            ],
+            [
+              -53,
+              1697
+            ],
+            [
+              -53,
+              1652
+            ],
+            [
+              -198,
+              1652
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1604
+            ],
+            [
+              -198,
+              1649
+            ],
+            [
+              -53,
+              1649
+            ],
+            [
+              -53,
+              1604
+            ],
+            [
+              -198,
+              1604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1556
+            ],
+            [
+              -198,
+              1601
+            ],
+            [
+              -53,
+              1601
+            ],
+            [
+              -53,
+              1556
+            ],
+            [
+              -198,
+              1556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1508
+            ],
+            [
+              -198,
+              1553
+            ],
+            [
+              -53,
+              1553
+            ],
+            [
+              -53,
+              1508
+            ],
+            [
+              -198,
+              1508
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1460
+            ],
+            [
+              -198,
+              1505
+            ],
+            [
+              -53,
+              1505
+            ],
+            [
+              -53,
+              1460
+            ],
+            [
+              -198,
+              1460
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1412
+            ],
+            [
+              -198,
+              1457
+            ],
+            [
+              -53,
+              1457
+            ],
+            [
+              -53,
+              1412
+            ],
+            [
+              -198,
+              1412
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1364
+            ],
+            [
+              -198,
+              1409
+            ],
+            [
+              -53,
+              1409
+            ],
+            [
+              -53,
+              1364
+            ],
+            [
+              -198,
+              1364
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1316
+            ],
+            [
+              -198,
+              1361
+            ],
+            [
+              -53,
+              1361
+            ],
+            [
+              -53,
+              1316
+            ],
+            [
+              -198,
+              1316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1268
+            ],
+            [
+              -198,
+              1313
+            ],
+            [
+              -53,
+              1313
+            ],
+            [
+              -53,
+              1268
+            ],
+            [
+              -198,
+              1268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1220
+            ],
+            [
+              -198,
+              1265
+            ],
+            [
+              -53,
+              1265
+            ],
+            [
+              -53,
+              1220
+            ],
+            [
+              -198,
+              1220
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1172
+            ],
+            [
+              -198,
+              1217
+            ],
+            [
+              -53,
+              1217
+            ],
+            [
+              -53,
+              1172
+            ],
+            [
+              -198,
+              1172
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1124
+            ],
+            [
+              -198,
+              1169
+            ],
+            [
+              -53,
+              1169
+            ],
+            [
+              -53,
+              1124
+            ],
+            [
+              -198,
+              1124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1076
+            ],
+            [
+              -198,
+              1121
+            ],
+            [
+              -53,
+              1121
+            ],
+            [
+              -53,
+              1076
+            ],
+            [
+              -198,
+              1076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              1028
+            ],
+            [
+              -198,
+              1073
+            ],
+            [
+              -53,
+              1073
+            ],
+            [
+              -53,
+              1028
+            ],
+            [
+              -198,
+              1028
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              980
+            ],
+            [
+              -198,
+              1025
+            ],
+            [
+              -53,
+              1025
+            ],
+            [
+              -53,
+              980
+            ],
+            [
+              -198,
+              980
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              932
+            ],
+            [
+              -198,
+              977
+            ],
+            [
+              -53,
+              977
+            ],
+            [
+              -53,
+              932
+            ],
+            [
+              -198,
+              932
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              884
+            ],
+            [
+              -198,
+              929
+            ],
+            [
+              -53,
+              929
+            ],
+            [
+              -53,
+              884
+            ],
+            [
+              -198,
+              884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 19
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              836
+            ],
+            [
+              -198,
+              881
+            ],
+            [
+              -53,
+              881
+            ],
+            [
+              -53,
+              836
+            ],
+            [
+              -198,
+              836
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 20
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              788
+            ],
+            [
+              -198,
+              833
+            ],
+            [
+              -53,
+              833
+            ],
+            [
+              -53,
+              788
+            ],
+            [
+              -198,
+              788
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 21
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              740
+            ],
+            [
+              -198,
+              785
+            ],
+            [
+              -53,
+              785
+            ],
+            [
+              -53,
+              740
+            ],
+            [
+              -198,
+              740
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              692
+            ],
+            [
+              -198,
+              737
+            ],
+            [
+              -53,
+              737
+            ],
+            [
+              -53,
+              692
+            ],
+            [
+              -198,
+              692
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              644
+            ],
+            [
+              -198,
+              689
+            ],
+            [
+              -53,
+              689
+            ],
+            [
+              -53,
+              644
+            ],
+            [
+              -198,
+              644
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 24
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              596
+            ],
+            [
+              -198,
+              641
+            ],
+            [
+              -53,
+              641
+            ],
+            [
+              -53,
+              596
+            ],
+            [
+              -198,
+              596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              548
+            ],
+            [
+              -198,
+              593
+            ],
+            [
+              -53,
+              593
+            ],
+            [
+              -53,
+              548
+            ],
+            [
+              -198,
+              548
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              500
+            ],
+            [
+              -198,
+              545
+            ],
+            [
+              -53,
+              545
+            ],
+            [
+              -53,
+              500
+            ],
+            [
+              -198,
+              500
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              452
+            ],
+            [
+              -198,
+              497
+            ],
+            [
+              -53,
+              497
+            ],
+            [
+              -53,
+              452
+            ],
+            [
+              -198,
+              452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 28
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              404
+            ],
+            [
+              -198,
+              449
+            ],
+            [
+              -53,
+              449
+            ],
+            [
+              -53,
+              404
+            ],
+            [
+              -198,
+              404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 29
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              356
+            ],
+            [
+              -198,
+              401
+            ],
+            [
+              -53,
+              401
+            ],
+            [
+              -53,
+              356
+            ],
+            [
+              -198,
+              356
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 30
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              308
+            ],
+            [
+              -198,
+              353
+            ],
+            [
+              -53,
+              353
+            ],
+            [
+              -53,
+              308
+            ],
+            [
+              -198,
+              308
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              260
+            ],
+            [
+              -198,
+              305
+            ],
+            [
+              -53,
+              305
+            ],
+            [
+              -53,
+              260
+            ],
+            [
+              -198,
+              260
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 32
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              212
+            ],
+            [
+              -198,
+              257
+            ],
+            [
+              -53,
+              257
+            ],
+            [
+              -53,
+              212
+            ],
+            [
+              -198,
+              212
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 33
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              164
+            ],
+            [
+              -198,
+              209
+            ],
+            [
+              -53,
+              209
+            ],
+            [
+              -53,
+              164
+            ],
+            [
+              -198,
+              164
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 34
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              116
+            ],
+            [
+              -198,
+              161
+            ],
+            [
+              -53,
+              161
+            ],
+            [
+              -53,
+              116
+            ],
+            [
+              -198,
+              116
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 35
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              68
+            ],
+            [
+              -198,
+              113
+            ],
+            [
+              -53,
+              113
+            ],
+            [
+              -53,
+              68
+            ],
+            [
+              -198,
+              68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 3",
+        "unit": 36
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -198,
+              20
+            ],
+            [
+              -198,
+              65
+            ],
+            [
+              -53,
+              65
+            ],
+            [
+              -53,
+              20
+            ],
+            [
+              -198,
+              20
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

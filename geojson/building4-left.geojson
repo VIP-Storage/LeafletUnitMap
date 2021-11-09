@@ -1,0 +1,1161 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1700
+            ],
+            [
+              280,
+              1745
+            ],
+            [
+              425,
+              1745
+            ],
+            [
+              425,
+              1700
+            ],
+            [
+              280,
+              1700
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1652
+            ],
+            [
+              280,
+              1697
+            ],
+            [
+              425,
+              1697
+            ],
+            [
+              425,
+              1652
+            ],
+            [
+              280,
+              1652
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1604
+            ],
+            [
+              280,
+              1649
+            ],
+            [
+              425,
+              1649
+            ],
+            [
+              425,
+              1604
+            ],
+            [
+              280,
+              1604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1556
+            ],
+            [
+              280,
+              1601
+            ],
+            [
+              425,
+              1601
+            ],
+            [
+              425,
+              1556
+            ],
+            [
+              280,
+              1556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1508
+            ],
+            [
+              280,
+              1553
+            ],
+            [
+              425,
+              1553
+            ],
+            [
+              425,
+              1508
+            ],
+            [
+              280,
+              1508
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1460
+            ],
+            [
+              280,
+              1505
+            ],
+            [
+              425,
+              1505
+            ],
+            [
+              425,
+              1460
+            ],
+            [
+              280,
+              1460
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1412
+            ],
+            [
+              280,
+              1457
+            ],
+            [
+              425,
+              1457
+            ],
+            [
+              425,
+              1412
+            ],
+            [
+              280,
+              1412
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1364
+            ],
+            [
+              280,
+              1409
+            ],
+            [
+              425,
+              1409
+            ],
+            [
+              425,
+              1364
+            ],
+            [
+              280,
+              1364
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1316
+            ],
+            [
+              280,
+              1361
+            ],
+            [
+              425,
+              1361
+            ],
+            [
+              425,
+              1316
+            ],
+            [
+              280,
+              1316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1268
+            ],
+            [
+              280,
+              1313
+            ],
+            [
+              425,
+              1313
+            ],
+            [
+              425,
+              1268
+            ],
+            [
+              280,
+              1268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1220
+            ],
+            [
+              280,
+              1265
+            ],
+            [
+              425,
+              1265
+            ],
+            [
+              425,
+              1220
+            ],
+            [
+              280,
+              1220
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1172
+            ],
+            [
+              280,
+              1217
+            ],
+            [
+              425,
+              1217
+            ],
+            [
+              425,
+              1172
+            ],
+            [
+              280,
+              1172
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1124
+            ],
+            [
+              280,
+              1169
+            ],
+            [
+              425,
+              1169
+            ],
+            [
+              425,
+              1124
+            ],
+            [
+              280,
+              1124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1076
+            ],
+            [
+              280,
+              1121
+            ],
+            [
+              425,
+              1121
+            ],
+            [
+              425,
+              1076
+            ],
+            [
+              280,
+              1076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              1028
+            ],
+            [
+              280,
+              1073
+            ],
+            [
+              425,
+              1073
+            ],
+            [
+              425,
+              1028
+            ],
+            [
+              280,
+              1028
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              980
+            ],
+            [
+              280,
+              1025
+            ],
+            [
+              425,
+              1025
+            ],
+            [
+              425,
+              980
+            ],
+            [
+              280,
+              980
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              932
+            ],
+            [
+              280,
+              977
+            ],
+            [
+              425,
+              977
+            ],
+            [
+              425,
+              932
+            ],
+            [
+              280,
+              932
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              884
+            ],
+            [
+              280,
+              929
+            ],
+            [
+              425,
+              929
+            ],
+            [
+              425,
+              884
+            ],
+            [
+              280,
+              884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 19
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              836
+            ],
+            [
+              280,
+              881
+            ],
+            [
+              425,
+              881
+            ],
+            [
+              425,
+              836
+            ],
+            [
+              280,
+              836
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 20
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              788
+            ],
+            [
+              280,
+              833
+            ],
+            [
+              425,
+              833
+            ],
+            [
+              425,
+              788
+            ],
+            [
+              280,
+              788
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 21
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              740
+            ],
+            [
+              280,
+              785
+            ],
+            [
+              425,
+              785
+            ],
+            [
+              425,
+              740
+            ],
+            [
+              280,
+              740
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              692
+            ],
+            [
+              280,
+              737
+            ],
+            [
+              425,
+              737
+            ],
+            [
+              425,
+              692
+            ],
+            [
+              280,
+              692
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              644
+            ],
+            [
+              280,
+              689
+            ],
+            [
+              425,
+              689
+            ],
+            [
+              425,
+              644
+            ],
+            [
+              280,
+              644
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 24
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              596
+            ],
+            [
+              280,
+              641
+            ],
+            [
+              425,
+              641
+            ],
+            [
+              425,
+              596
+            ],
+            [
+              280,
+              596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              548
+            ],
+            [
+              280,
+              593
+            ],
+            [
+              425,
+              593
+            ],
+            [
+              425,
+              548
+            ],
+            [
+              280,
+              548
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              500
+            ],
+            [
+              280,
+              545
+            ],
+            [
+              425,
+              545
+            ],
+            [
+              425,
+              500
+            ],
+            [
+              280,
+              500
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              452
+            ],
+            [
+              280,
+              497
+            ],
+            [
+              425,
+              497
+            ],
+            [
+              425,
+              452
+            ],
+            [
+              280,
+              452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 28
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              404
+            ],
+            [
+              280,
+              449
+            ],
+            [
+              425,
+              449
+            ],
+            [
+              425,
+              404
+            ],
+            [
+              280,
+              404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 29
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              356
+            ],
+            [
+              280,
+              401
+            ],
+            [
+              425,
+              401
+            ],
+            [
+              425,
+              356
+            ],
+            [
+              280,
+              356
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 30
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              308
+            ],
+            [
+              280,
+              353
+            ],
+            [
+              425,
+              353
+            ],
+            [
+              425,
+              308
+            ],
+            [
+              280,
+              308
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              260
+            ],
+            [
+              280,
+              305
+            ],
+            [
+              425,
+              305
+            ],
+            [
+              425,
+              260
+            ],
+            [
+              280,
+              260
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 32
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              212
+            ],
+            [
+              280,
+              257
+            ],
+            [
+              425,
+              257
+            ],
+            [
+              425,
+              212
+            ],
+            [
+              280,
+              212
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 33
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              164
+            ],
+            [
+              280,
+              209
+            ],
+            [
+              425,
+              209
+            ],
+            [
+              425,
+              164
+            ],
+            [
+              280,
+              164
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "Building 4",
+        "unit": 34
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280,
+              116
+            ],
+            [
+              280,
+              161
+            ],
+            [
+              425,
+              161
+            ],
+            [
+              425,
+              116
+            ],
+            [
+              280,
+              116
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

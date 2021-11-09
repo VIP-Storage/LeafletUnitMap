@@ -1,176 +1,23 @@
 <html>
 <head>
     <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin=""/>
     <title>LeafletUnitMap</title>
 </head>
 <body>
-<div id="map" style="width: 100%; height: 100%;"></div>
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <div class="map-wrapper">
+        <div id="map" class="leaflet-map"></div>
+        <div class="actions">
+            <button type="button" id="downloadGeoJSON">Download GeoJSON</button>
+        </div>
+    </div>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
 <script src="node_modules/leaflet/dist/leaflet.js"></script>
-<script>
-
-    function drawUnit(latLngs, map, building, unit) {
-        var rectOptions = {color: 'Red', weight: 1}
-        var rectangle = L.rectangle(latLngs, rectOptions);
-        const layer = rectangle.addTo(map);
-
-        layer.bindPopup(`Unit - ${building}${unit}`);
-
-        const geoJSON = layer.toGeoJSON();
-        geoJSON.properties.building = building;
-        geoJSON.properties.unit = unit;
-        return geoJSON;
-    }
-
-    // Draws units going down the map
-    function drawStandardUnit(startingLat, startingLon, unitCount, map, building, rows = 2) {
-
-        const featureCollection = [];
-        let latOffset = startingLat;
-
-        const unitsPerRow = (rows === 2 ? unitCount / rows : unitCount);
-        let unitNumber = 100;
-
-        for (let unit = 0; unit < unitsPerRow; unit++) {
-            const endLat = latOffset + 45;
-            const endLon = startingLon + 145;
-
-            const geoUnit = drawUnit([[latOffset, startingLon],[endLat, endLon]], map, building, unitNumber);
-            featureCollection.push(geoUnit);
-            latOffset -= 48;
-            unitNumber += 1;
-        }
-
-        if (rows === 2) {
-            latOffset = startingLat;
-            for (let unit = 0; unit < unitsPerRow; unit++) {
-                const endLat = latOffset + 45;
-                const startLon = startingLon + 145;
-                const endLon = startingLon + 290;
-
-                const geoUnit = drawUnit([[latOffset, startLon], [endLat, endLon]], map, building, unitNumber);
-                featureCollection.push(geoUnit);
-                latOffset -= 48;
-                unitNumber += 1;
-            }
-        }
-
-        const featureCollectionObject = {
-            type: 'FeatureCollection',
-            features: featureCollection
-        }
-
-        console.log(JSON.stringify(featureCollectionObject));
-    }
-
-    function drawSmallUnit(startingLat, startingLon, unitCount, map, building, rows = 2, startingUnitNumber = 100) {
-
-        const featureCollection = [];
-        let latOffset = startingLat;
-
-        const unitsPerRow = (rows === 2 ? unitCount / rows : unitCount);
-        let unitNumber = startingUnitNumber;
-
-        for (let unit = 0; unit < unitsPerRow; unit++) {
-            const endLat = latOffset + 45;
-            const endLon = startingLon + 85;
-
-            const geoUnit = drawUnit([[latOffset, startingLon],[endLat, endLon]], map, building, unitNumber);
-            featureCollection.push(geoUnit);
-            latOffset -= 48;
-            unitNumber += 1;
-        }
-
-        if (rows === 2) {
-            latOffset = startingLat;
-            for (let unit = 0; unit < unitsPerRow; unit++) {
-                const endLat = latOffset + 45;
-                const startLon = startingLon + 85;
-                const endLon = startingLon + 170;
-
-                const geoUnit = drawUnit([[latOffset, startLon], [endLat, endLon]], map, building, unitNumber);
-                featureCollection.push(geoUnit);
-                latOffset -= 48;
-                unitNumber += 1;
-            }
-        }
-
-        const featureCollectionObject = {
-            type: 'FeatureCollection',
-            features: featureCollection
-        }
-
-        console.log(JSON.stringify(featureCollectionObject));
-    }
-
-    function loadGeoJSON(name, map) {
-        fetch(`/geojson/${name}`)
-            .then(response => response.json())
-            .then(geoJSON => {
-                L.geoJSON(geoJSON, {
-                    onEachFeature: function (feature, layer) {
-                        layer.bindPopup('<h1>'+feature.properties.building+'</h1><p>Unit: '+feature.properties.unit+'</p>');
-                    }
-                }).addTo(map);
-            });
-    }
-
-    var map = L.map('map', {
-        minZoom: -2,
-        maxZoom: 1,
-        zoom: -3,
-        crs: L.CRS.Simple
-    }).setView([0, 0], 0);
-
-
-    const imageUrl = 'building.svg';
-
-    var bounds = [[-1283, -2000], [2564, 4000]];
-    var imageLayer = L.imageOverlay(imageUrl, bounds).addTo(map);
-
-    map.setMaxBounds(bounds);
-    console.log(imageLayer);
-
-    // Unit height = 45
-    // Unit width = 145
-
-    drawStandardUnit(1727, -1010, 29, map, "A", 1);
-    drawStandardUnit(1700, -680, 60, map, "B");
-    drawStandardUnit(1700, -198, 72, map, "C");
-    drawStandardUnit(1700, 280, 68, map, "D");
-    drawStandardUnit(1700, 765, 64, map, "E");
-    drawStandardUnit(1700, 1240, 60, map, "F");
-    drawSmallUnit(1695, 1725, 58, map, "G");
-    drawSmallUnit(1695, 2020, 54, map, "H");
-    drawSmallUnit(1695, 2320, 52, map, "I");
-    drawSmallUnit(1695, 2620, 50, map, "J");
-    drawSmallUnit(1695, 2920, 48, map, "K");
-    drawSmallUnit(1695, 3220, 46, map, "L");
-    drawSmallUnit(1695, 3520, 21, map, "M", 1);
-    drawSmallUnit(1695, 3605, 18, map, "M", 1, 120);
-
-   /* loadGeoJSON('building1.geojson', map);
-
-    loadGeoJSON('building2-left.geojson', map);
-    loadGeoJSON('building2-right.geojson', map);
-
-    loadGeoJSON('building3-left.geojson', map);
-    loadGeoJSON('building3-right.geojson', map);*/
-
-    map.on('click', function (e) {
-        const coordinate = e.latlng;
-        const lat = coordinate.lat;
-        const lng = coordinate.lng;
-
-
-        const coordinates = [[lat, lng], [lat + 145, lng + 45]];
-
-        console.log(JSON.stringify(coordinates));
-    });
-
-    map.fitBounds(bounds);
-
-</script>
+<script src="index.js"></script>
 </body>
 </html>

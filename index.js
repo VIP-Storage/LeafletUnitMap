@@ -1,9 +1,17 @@
 const featureCollection = [];
 
-function drawUnit(coordinates, map, building, unit, color = 'Red') {
-    const rectOptions = {color, weight: 1}
+function drawUnit(coordinates, map, building, unit, color = 'Red', rotation = 0) {
+    const rectOptions = {color, weight: 1, transform: (rotation > 0)}
     const rectangle = L.rectangle(coordinates, rectOptions);
     const layer = rectangle.addTo(map);
+
+    if (rotation > 0) {
+        const bottomRight = coordinates[1];
+
+        layer.transform.enable();
+        layer.transform.rotate(rotation, bottomRight);
+        layer.transform.disable();
+    }
 
     layer.bindPopup(`Unit - ${building}${unit}`);
 
@@ -26,7 +34,7 @@ function drawStandardUnit(startingLat, startingLon, unitCount, map, building, ro
         const endLat = latOffset + height;
         const endLon = startingLon + width;
 
-        const geoUnit = drawUnit([[latOffset, startingLon],[endLat, endLon]], map, building, unitNumber);
+        const geoUnit = drawUnit([[latOffset, startingLon], [endLat, endLon]], map, building, unitNumber);
         featureCollection.push(geoUnit);
         latOffset -= (height + 3);
         unitNumber += 1;
@@ -55,6 +63,26 @@ function drawSmallUnit(startingLat, startingLon, unitCount, map, building, rows 
     drawStandardUnit(startingLat, startingLon, unitCount, map, building, rows, startingUnitNumber, 50, 34.5);
 }
 
+function drawHorizontalUnit(startingLat, startingLon, unitCount, map, building, width = 145, height = 45) {
+    let latOffset = startingLat;
+    let lonOffset = startingLon;
+
+    let unitNumber = 100;
+
+    for (let unit = 0; unit < unitCount; unit++) {
+        const endLat = latOffset + height;
+        const endLon = lonOffset + width;
+
+        const geoUnit = drawUnit([[latOffset, lonOffset], [endLat, endLon]], map, building, unitNumber, 'red', 12.38);
+        featureCollection.push(geoUnit);
+        latOffset += 6.5;
+        lonOffset += (width + 3.2);
+
+        unitNumber += 1;
+        console.log(geoUnit);
+    }
+}
+
 function initMap() {
     const map = L.map('map', {
         minZoom: -2,
@@ -64,7 +92,7 @@ function initMap() {
     }).setView([0, 0], 0);
 
 
-    const imageUrl = 'building.svg';
+    const imageUrl = 'building-outline.svg';
     const bounds = [[-1283, -2000], [2564, 4000]];
 
     L.imageOverlay(imageUrl, bounds).addTo(map);
@@ -74,7 +102,7 @@ function initMap() {
         const coordinate = e.latlng;
         const lat = coordinate.lat;
         const lng = coordinate.lng;
-        const coordinates = [[lat, lng], [lat + 145, lng + 45]];
+        const coordinates = [lat, lng];
 
         console.log(JSON.stringify(coordinates));
     });
@@ -93,16 +121,48 @@ function emitGeoJSON() {
     downloadObjectAsJson(featureCollectionObject, 'storage-unit-layout');
 }
 
-function downloadObjectAsJson(exportObj, exportName){
+function downloadObjectAsJson(exportObj, exportName) {
     const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportObj, null, 2));
     const downloadAnchorNode = document.createElement('a');
 
-    downloadAnchorNode.setAttribute("href",     dataStr);
+    downloadAnchorNode.setAttribute("href", dataStr);
     downloadAnchorNode.setAttribute("download", exportName + ".json");
     document.body.appendChild(downloadAnchorNode);
 
     downloadAnchorNode.click();
     downloadAnchorNode.remove();
+}
+
+function drawHorizontalSmallUnit(baseCoords, amount, building, startingUnitNumber) {
+    let topLeft = baseCoords[0];
+    let bottomRight = baseCoords[1];
+    let unitNumber = startingUnitNumber;
+
+    for (let i = 0; i < amount; i++) {
+        const coords = [
+            topLeft,
+            bottomRight,
+        ];
+
+        const layer = L.rectangle(coords, {color: 'red', transform: true}).addTo(map);
+        layer.transform.enable();
+        layer.transform.rotate(12.38, bottomRight);
+        layer.bindPopup(`Unit - ${building}${unitNumber}`);
+
+
+        topLeft = [
+            topLeft[0] + 6.45,
+            topLeft[1] + 35.2
+        ];
+
+        bottomRight = [
+            bottomRight[0] + 6.4,
+            bottomRight[1] + 35.2
+        ];
+
+        layer.transform.disable();
+        unitNumber++;
+    }
 }
 
 const map = initMap();
@@ -127,11 +187,15 @@ drawMediumUnit(1695, 3220, 46, map, "L");
 drawMediumUnit(1695, 3520, 21, map, "M", 1);
 drawMediumUnit(1695, 3605, 18, map, "M", 1, 120);
 
-//[[1688,3824],[1833,3869]]
-// [[1660,3873],[1805,3918]]
-
 // Unit width = 28
 // Unit height = 45
 drawSmallUnit(1655, 3824, 12, map, "O", 1);
+
+drawHorizontalUnit(-345, -415, 18, map, 'P', 32, 115)
+drawHorizontalUnit(-222, 260, 17, map, 'Q', 32, 115)
+drawHorizontalUnit(-105, 895, 17, map, 'R', 32, 115)
+drawHorizontalUnit(10, 1532, 17, map, 'S', 32, 115)
+drawHorizontalUnit(125, 2170, 17, map, 'T', 32, 115)
+drawHorizontalUnit(245, 2805, 9, map, 'U', 32, 115)
 
 document.querySelector('#downloadGeoJSON').addEventListener('click', emitGeoJSON)

@@ -79,7 +79,6 @@ function drawHorizontalUnit(startingLat, startingLon, unitCount, map, building, 
         lonOffset += (width + 3.2);
 
         unitNumber += 1;
-        console.log(geoUnit);
     }
 }
 
@@ -98,15 +97,6 @@ function initMap() {
     L.imageOverlay(imageUrl, bounds).addTo(map);
 
     map.setMaxBounds(bounds);
-    map.on('click', function (e) {
-        const coordinate = e.latlng;
-        const lat = coordinate.lat;
-        const lng = coordinate.lng;
-        const coordinates = [lat, lng];
-
-        console.log(JSON.stringify(coordinates));
-    });
-
     map.fitBounds(bounds);
 
     return map;
